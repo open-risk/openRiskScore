@@ -1,0 +1,24 @@
+{
+  "id": "0",
+  "weight" : 1,
+  "children": [
+    {
+      "id": "1",
+      "weight": 0.5,
+      "children": [
+        {
+          "id": "1.1",
+          "weight": 0.5
+        },
+        {
+          "id": "1.2",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "weight": 0.5
+    }
+  ]
+}
