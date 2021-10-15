@@ -12,7 +12,7 @@ Two major use cases for openRiskScore are credit risk scoring, and sustainabilit
 * Code Documentation: [Read The Docs](Upcoming)
 * Mathematical Documentation: [Open Risk Manual](https://www.openriskmanual.org/wiki/Category:SME_Credit_Risk)
 * Development website: [Github](https://github.com/open-risk/openRiskScore)
-* Discussions: [Gitter](https://gitter.im/open-risk/Lobby)
+* Discussions: [Open Risk Commons](https://www.openriskcommons.org/c/open-source/openriskscore/16)
 
 **NB: openRiskScore is still in active development. The alpha release will be available here**
 
