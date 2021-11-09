@@ -1,5 +1,5 @@
 ## Prescribed Methodology
-This document excerpts the relevant segments of the EBA reference the defines the standardized scorecard for project finance exposures
+This document excerpts the relevant segments of the EBA reference that defines the standardized scorecard for project finance exposures
 
 ### Article 2: Applicable assessment criteria for different classes of specialised lending exposures
 

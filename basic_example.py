@@ -14,19 +14,17 @@ import json
 from hierarchicalScorecard import HierarchicalScorecard
 
 """
-Example using a fully specified scorecard:
-EBA Project Finance Specialized Lending Specification
-
+Basic Example. This illustrates the process using minimal structure / data for easy inspection
 """
 
-# Load the scorecard structure from file
-scorecard = json.load(open("./datasets/scorecard_EBA_PF.json"))
+# Load the scorecard structure from a json file that defines it
+scorecard = json.load(open("./datasets/scorecard_structure.json"))
 
-# Create an new project finance score card
+# Create an new score card object
 PFScore = HierarchicalScorecard(scorecard)
 
-# Load the attribute values
-scorecard_data = json.load(open("./datasets/data_EBA_PF.json"))
+# Load the attribute values from a json file that provides them
+scorecard_data = json.load(open("./datasets/scorecard_data.json"))
 
 # calculate the score
 score = PFScore.score(scorecard_data)

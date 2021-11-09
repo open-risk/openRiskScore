@@ -2,9 +2,12 @@
 A python framework for risk scoring in both classic and federated/decentralized contexts
 
 ## Intro
-openRiskScore is a Python powered library to support the development of statistical risk scoring and rating models in both traditional and decentralized (federated) contexts. The library uses popular machine learning frameworks as algorithmic backends and focuses on supporting high quality risk model development and maintenance.
+openRiskScore is a Python powered library to support the development of both expert based and statistical [risk scoring](https://www.openriskmanual.org/wiki/Risk_Score) and risk rating models in both traditional and decentralized (federated) contexts. 
 
-Two major use cases for openRiskScore are credit risk scoring, and sustainability (ESG) scoring. It is envisaged that scoring activities can be either pursued by a standalone entity (operating on its own data) and in federation (independent entities sharing some data sets using federated learning principles, algorithms and tools). 
+
+The library aims to wrap popular machine learning frameworks as algorithmic backends and focuses on supporting high quality risk model development and maintenance.
+
+Two important use cases for openRiskScore are [credit risk scoring](https://www.openriskmanual.org/wiki/Category:Credit_Scoring_Models), and sustainability (ESG) ratings and scores. It is envisaged that scoring activities can be either pursued by a standalone entity (operating on its own data) or in federation (independent entities sharing some data sets using federated learning principles, algorithms and tools). 
 
 ## Key Information
 * Author: [Open Risk](http://www.openriskmanagement.com)
@@ -17,14 +20,19 @@ Two major use cases for openRiskScore are credit risk scoring, and sustainabilit
 **NB: openRiskScore is still in active development. The alpha release will be available here**
 
 ### Standalone Mode
-
-In *standalone mode* openRiskScore emulates a classic use case where a financial institution or other credit provider aims to develop a scoring system on the basis of data it has in its possession.  Use cases for the standalone mode are both as intended (standalone) scoring system and as a validation framework for federated applications.
+In *standalone mode* openRiskScore emulates a classic use case where, e.g., a financial institution or other credit provider aims to develop a risk scoring system on the basis of data it has in its possession.  Use cases for the standalone mode are both as intended (standalone) scoring system and as a validation framework for federated applications.
 
 ### Federated Mode
-
 The federated mode essentially facilitates the development of a *generic* (pooled) scorecard that applies ot a wide population (which is assumed homogeneous)
 
 ## Documentation
+* [Project Finance Scorecard](docs/ProjectFinanceScorecard.md). Description of the Standardized Specialized Lending Scorecard for Project Finance
+* [Scorecard Characteristics](docs/ScorecardCharacteristics.xlsx). Documentation of the definitions of the scorecard
+* [Specification Reference](docs/SpecificationReference.md). This document excerpts the relevant segments of the EBA official reference that defines the standardized credit scorecard for project finance exposures
+
+
+
+## Further Documentation and Reading
 
 ### Credit Scoring
 * [How to Build a Credit Scorecard](https://www.openriskmanual.org/wiki/How_to_Build_a_Credit_Scorecard)
@@ -33,7 +41,6 @@ The federated mode essentially facilitates the development of a *generic* (poole
 
 ### ESG Scoring
 * [List of ESG Factos](https://www.openriskmanual.org/wiki/List_of_ESG_Factors)
-
 
 ### Semantic Documentation of Risk Models
 * [Risk Model Ontology](https://www.openriskmanual.org/wiki/Risk_Model_Ontology)
