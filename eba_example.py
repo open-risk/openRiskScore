@@ -1,4 +1,4 @@
-# (c) 2021 - 2022 Open Risk (https://www.openriskmanagement.com)
+# (c) 2021 - 2023 Open Risk (https://www.openriskmanagement.com)
 #
 # openRiskScore is licensed under the Apache 2.0 license a copy of which is included
 # in the source distribution of openRiskScore. This is notwithstanding any licenses of
@@ -22,7 +22,7 @@ The European Banking Authority's Project Finance Specialized Lending Specificati
 # Load the scorecard structure from file
 scorecard = json.load(open("./datasets/scorecard_EBA_PF.json"))
 
-# Create an new project finance score card
+# Create a new project finance scorecard
 PFScore = HierarchicalScorecard(scorecard)
 
 # Load the attribute values
