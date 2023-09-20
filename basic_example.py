@@ -1,4 +1,4 @@
-# (c) 2021 - 2023 Open Risk (https://www.openriskmanagement.com)
+# (c) 2021 - 2022 Open Risk (https://www.openriskmanagement.com)
 #
 # openRiskScore is licensed under the Apache 2.0 license a copy of which is included
 # in the source distribution of openRiskScore. This is notwithstanding any licenses of
@@ -20,7 +20,7 @@ Basic Example. This illustrates the process using minimal structure / data for e
 # Load the scorecard structure from a json file that defines it
 scorecard = json.load(open("./datasets/scorecard_structure.json"))
 
-# Create a new scorecard object
+# Create an new score card object
 PFScore = HierarchicalScorecard(scorecard)
 
 # Load the attribute values from a json file that provides them
