@@ -1,4 +1,4 @@
-# (c) 2021 Open Risk (https://www.openriskmanagement.com)
+# (c) 2021 - 2023 Open Risk (https://www.openriskmanagement.com)
 #
 # openRiskScore is licensed under the Apache 2.0 license a copy of which is included
 # in the source distribution of openRiskScore. This is notwithstanding any licenses of
